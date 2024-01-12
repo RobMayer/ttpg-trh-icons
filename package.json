@@ -1,0 +1,25 @@
+{
+    "name": "ttpg-trh-icons",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "ts-node scripts/build.ts && prettier --parser typescript --write --config \"./.prettierrc\" \"./tmp/*.ts\" --ignore-path \"./prettierignore\" && tsc"
+    },
+    "files": [
+        "./dist"
+    ],
+    "main": "dist/index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.5.1",
+        "@fortawesome/sharp-regular-svg-icons": "^6.5.1",
+        "@fortawesome/sharp-solid-svg-icons": "^6.5.1",
+        "@types/node": "^20.11.0",
+        "prettier": "^3.1.1",
+        "sharp": "^0.33.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}

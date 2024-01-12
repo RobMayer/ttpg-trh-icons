@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "lib": ["ES2023"],
+        "module": "commonjs",
+        "strict": true,
+        "outDir": "./dist",
+        "useUnknownInCatchVariables": false,
+        "rootDir": "tmp",
+        "skipLibCheck": true,
+        "declaration": true,
+        "esModuleInterop": true
+    },
+    "include": ["tmp/**/*.ts"]
+}

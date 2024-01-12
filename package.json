@@ -1,6 +1,6 @@
 {
     "name": "ttpg-trh-icons",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "",
     "scripts": {
         "build": "ts-node scripts/build.ts && prettier --parser typescript --write --config \"./.prettierrc\" \"./tmp/*.ts\" --ignore-path \"./prettierignore\" && tsc"

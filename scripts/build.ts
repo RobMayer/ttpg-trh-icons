@@ -29,8 +29,18 @@ const ICONS: { [key: string]: IconDef } = {
     "actions/trash": "Trash",
     "actions/search": "MagnifyingGlass",
     "actions/copy": "Copy",
+    "actions/paste": "Paste",
+    "actions/cut": "Scissors",
+    "actions/save": "FloppyDisk",
 
     "status/illuminated": "Lightbulb",
+    "status/darkened": "LightbulbSlash",
+    "status/locked": "Lock",
+    "status/noLock": {
+        source: "trh",
+        name: "NoLock",
+    },
+    "status/unlocked": "LockOpen",
     "status/hidden": "EyeSlash",
     "status/visible": "Eye",
 

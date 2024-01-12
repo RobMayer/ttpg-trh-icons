@@ -1,25 +1,32 @@
 declare const _default: {
     actions: {
-        settings: string;
         power: string;
         refresh: string;
+        settings: string;
         close: string;
         search: string;
         subtract: string;
         add: string;
         trash: string;
+        paste: string;
+        cut: string;
         copy: string;
+        save: string;
     };
     status: {
-        hidden: string;
         illuminated: string;
+        darkened: string;
+        locked: string;
+        unlocked: string;
+        noLock: string;
         visible: string;
+        hidden: string;
     };
     media: {
         play: string;
-        stop: string;
         pause: string;
         reverse: string;
+        stop: string;
         shuffle: string;
         backward: string;
         forward: string;
@@ -29,8 +36,8 @@ declare const _default: {
         repeatOnce: string;
         first: string;
         last: string;
-        stepBackward: string;
         stepForward: string;
+        stepBackward: string;
     };
     format: {
         listOL: string;
@@ -40,30 +47,30 @@ declare const _default: {
         maximize: string;
         minimize: string;
         expand: string;
-        restore: string;
         compress: string;
+        restore: string;
     };
     arrows: {
         maximize: string;
         minimize: string;
         caretLeft: string;
-        caretRight: string;
         caretUp: string;
+        caretRight: string;
         caretDown: string;
-        chevronUp: string;
         chevronLeft: string;
-        chevronRight: string;
         chevronDown: string;
+        chevronUp: string;
+        chevronRight: string;
         arrowLeft: string;
-        arrowUp: string;
         arrowRight: string;
         arrowDown: string;
+        arrowUp: string;
     };
     notices: {
         error: string;
         fatal: string;
-        query: string;
         info: string;
+        query: string;
         warning: string;
     };
 };
